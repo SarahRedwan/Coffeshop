@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Coffland</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="coffee.css">
+</head>
+<body>
+  <header>
+    <h1>Coffland</h1>
+    <nav>
+      <a href="#home">HOME</a>
+      <a href="#shop">SHOP</a>
+      <a href="#about">ABOUT US</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <section class="homepage" id="home">
+    <h1>Welcome to the land of coffee</h1>
+    <p>Discover the finest coffee blends from Ethiopia</p>
+    <a href="#shop" class="btn">Explore Coffee</a>
+  </section>
+  <nav class="navbar1">
+    <div class="cart-wrapper">
+    <div class="cart" id="cart">🛒</div>
+    <div class="cart-details" id="cart-details">
+        <h3>Your Cart</h3>
+        <ul id="cart-list"></ul>
+        <p id="empty-msg"></p>
+        <p id="cart-total"></p>
+    </div>
+</div>
+
+</nav>
+
+
+
+  <section class="banner">
+    <h1>20% Off First Order</h1>
+    <p>Enjoy premium coffee and get a special gift with your first purchase</p>
+    <button>Shop Now</button>
+  </section>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h3>Categories</h3>
+      <ul>
+        <li><label><input type="checkbox"> Espresso</label></li>
+        <li><label><input type="checkbox"> Arabica</label></li>
+        <li><label><input type="checkbox"> Sidama</label></li>
+        <li><label><input type="checkbox"> Accessories</label></li>
+      </ul>
+    </aside>
+
+    <section class="products" id="shop">
+      <div class="product-card">
+        <img src="coffee1.jpg" alt="Sidama Coffee">
+        <div class="product-info">
+          <h4>Sidama Coffee</h4>
+          <p>1200 ETB</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="coffee2.jpg" alt="Arabica Coffee">
+        <div class="product-info">
+          <h4>Arabica Coffee</h4>
+          <p>1500 ETB</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="coffee3.jpg" alt="Espresso">
+        <div class="product-info">
+          <h4>Espresso</h4>
+          <p>1000 ETB</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="coffee4.jpg" alt="Coffee Mug">
+        <div class="product-info">
+          <h4>Coffee Mug</h4>
+          <p>300 ETB</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="coffee4.jpg" alt="Coffee Mug">
+        <div class="product-info">
+          <h4>Coffee Mug</h4>
+          <p>300 ETB</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="about" id="about">
+    <h1 class="heading"><span>About</span> Us</h1>
+    <div class="about_row">
+      <div class="image">
+        <img src="meeancoffe1.jpg" alt="Coffee bean">
+      </div>
+      <div class="content">
+        <span>What makes us special?</span>
+        <p>At our heart, coffee is more than a drink—it’s a story. What makes us special is our commitment to bringing you the finest Ethiopian coffee beans, carefully sourced from the regions where coffee first grew wild.</p>
+        <p>We believe in sharing not just coffee, but Ethiopia’s heritage, passion, and culture in every cup. That’s what makes us different; we don’t just sell beans—we bring you the true essence of Ethiopian coffee.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form action="mailto:susured22@gmail.com" method="post" enctype="text/plain">
+      <label>Name:</label>
+      <input type="text" name="name" required>
+      <label>Email:</label>
+      <input type="email" name="email" required>
+      <label>Message:</label>
+      <textarea name="message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Coffland. All rights reserved.</p>
+    <p>By Rahmet Abdelah & Sara Redwan</p>
+  </footer>
+
+  <!-- Link to your JavaScript file -->
+  <script src="coffee.js"></script>
+</body>
+</html>
